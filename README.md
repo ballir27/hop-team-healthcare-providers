@@ -31,6 +31,7 @@ Next, download the taxonomy code to classification crosswalk from the National U
 
 Finally, you need the Zip code to CBSA crosswalk from here: https://www.huduser.gov/portal/datasets/usps_crosswalk.html. Match each provider to a CBSA using the Business Zip code. Note that the zipcodes in the nppes dataset are either 5 or 9 digits, and be mindful that leading zeros might be dropped when reading the dataset into a dataframe. This can be used if you want to filter to providers just in the Nashville CBSA. 
 
+This was a team project that I worked on with Sourish Dutta, Mariel Jumawan, and Rob Brigance.
 Tasks:
 * First, build a profile of providers referring patients to the major hospitals in Nashville. Are certain specialties more likely to refer to a particular hospital over the others?
 * Determine which professionals Vanderbilt Hospital should reach out to in the Nashville area to expand their own patient volume. 
